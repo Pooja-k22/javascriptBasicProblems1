@@ -157,3 +157,39 @@
                console.log(str);
                
            }    
+
+           console.log(`----------------------`);
+            /*       +
+                   + +   
+                 + + +  
+               + + + +    */
+
+               for(r=1;r<=4;r++){
+                st=''
+                for(c=r;c<4;c++){
+                    st+="  "
+                }
+                for(c=1;c<=r;c++){
+                    st+=c+" "
+                }
+                console.log(st);
+                
+               }
+
+               console.log(`----------------------`);
+               /*     + + + +
+                        + + +   
+                          + +  
+                            +    */
+
+            for(r=1;r<=4;r++){
+                st=''
+                for(c=1;c<r;c++){
+                    st+="  "
+                }
+                for(c=4;c>=r;c--){
+                    st+="+ "
+                }
+                console.log(st);
+                
+                }             

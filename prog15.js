@@ -56,7 +56,7 @@ for(r=1;r<=3;r++){
         str=str+" "
     }
 
-    for(c=1;c<=2*(3-r)-1;c++){   // for star
+    for(c=1;c<=2*(3-r)+1;c++){   // for star
         str=str+"*"
     }
     console.log(str);

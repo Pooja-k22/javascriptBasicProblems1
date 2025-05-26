@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-image: url(https://betanews.com/wp-content/uploads/2023/03/Future-network.png);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+.form-style{
+    background: rgb(239,236,241);
+    background: linear-gradient(144deg, rgba(239,236,241,1) 1%, rgba(61,26,77,1) 98%, rgba(86,0,93,0.8576680672268908) 100%, rgba(255,0,241,1) 100%);
+    height: 300px;
+    padding: 30px;
+    width: 450px;
+}

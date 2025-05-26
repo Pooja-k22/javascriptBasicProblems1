@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>crud</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <fieldset>
+    <legend>
+        <h1>Form</h1>
+    </legend>
+    <form action="" id="form">
+        <input type="text" id="Name" placeholder="name" name="name"> <br><br>
+        <input type="text" id="job" placeholder="job" name="job"> <br><br>
+        <input type="text" id="exp" placeholder="experience" name="experience"> <br><br>
+        <button type="button" onclick="Submit() " id="btn">submit</button>
+        <button type="button" onclick="reset() " id="btn">reset</button>
+
+
+    </form>
+</fieldset>
+
+<div id="msg">aaaa</div>
+    <fieldset>
+        <legend><h2>Data from LocalStorage</h2></legend>
+
+        <table id="table" border="2">
+            <thead>
+                <tr>
+                    <th class=".col">Name</th>
+                    <th class=".col">Job</th>
+                    <th class=".col">Experience</th>
+                    <th class=".col">Action</th>
+                </tr>
+            </thead>
+        </table>
+    </fieldset>
+   
+    
+</body>
+<script src="./script.js"></script>
+</html>

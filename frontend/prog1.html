@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom access</title>
+    <style>
+        h1{
+            color: blueviolet;
+        }
+        button{
+            background-color: aquamarine;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="styl">DOM</h1>
+    <h1>pooja</h1> 
+    <p class="styl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, ducimus! Eius nesciunt nihil consectetur maiores illum necessitatibus quidem impedit nulla ad rerum, molestiae laboriosam velit ab officiis odit voluptatum. Doloribus.</p>
+    <p id="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat ipsa ratione nam odit ut necessitatibus accusantium in ipsum consectetur sunt numquam, eos praesentium minus! Quas ratione modi delectus necessitatibus facere.</p>
+    <button onclick="change()">click</button>
+</body>
+<script>
+    function change(){
+        // const content = document.getElementsByTagName('h1')
+        // console.log(content[1]);
+        // content[0].innerHTML="Document object model"
+        // content[0].style.fontSize='100px'
+
+        // const content = document.getElementsByClassName('styl')
+        // console.log(content[1])
+        // content[1].style.backgroundColor='yellow'
+
+        // const content=document.getElementById('para')
+        // console.log(content);
+
+        // const data = document.querySelector('h1')
+        // console.log(data);
+        
+        // const data = document.querySelector('.styl')
+        // console.log(data);
+
+        const data = document.querySelectorAll('.styl')
+        console.log(data);
+
+    }
+</script>
+</html>
